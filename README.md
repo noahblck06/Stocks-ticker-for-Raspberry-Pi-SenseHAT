@@ -24,11 +24,11 @@ This Python script displays the current price of IWDA.AS (iShares Core MSCI Worl
    ```
 
 3. **Save script**:
-   Copy `aktie.py` content into a file: `nano aktie.py` and save.
+   Copy `stock-ticker.py` content into a file: `nano stock-ticker.py` and save.
 
 ## Running
 ```
-python3 aktie.py
+python3 stock-ticker.py
 ```
 - Runs indefinitely; stop with `Ctrl+C`.
 - First run fetches data immediately, then every 4 minutes (240 seconds).
